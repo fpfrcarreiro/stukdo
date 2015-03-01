@@ -12,7 +12,7 @@
   </thead>
 
   <tbody>
-    <% @task.each do |task| %>
+    <% @to_do.each do |task| %>
       <tr>
         <td><%= task.content %></td>
         <td><%= task.state %></td>
